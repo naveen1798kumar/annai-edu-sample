@@ -1,4 +1,5 @@
-const plugin = require('tailwindcss/plugin');
+import plugin from 'tailwindcss/plugin';
+import tailwindScrollbar from 'tailwind-scrollbar';
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -12,9 +13,10 @@ export default {
         sans: ['Poppins', 'sans-serif'],
         serif: ['Lora', 'serif'],
       },
+    },
   },
   plugins: [
-    require('tailwind-scrollbar'),
+    tailwindScrollbar,
     plugin(function ({ addUtilities }) {
       addUtilities({
         '.custom-scrollbar': {
@@ -34,6 +36,4 @@ export default {
       });
     }),
   ],
-}
-}
-// plugins: [require('@tailwindcss/forms')],
+};

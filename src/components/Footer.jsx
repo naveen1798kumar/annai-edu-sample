@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FcGoogle } from "react-icons/fc";
 import {
   FaPhoneAlt,
   FaLinkedin,
@@ -258,15 +259,15 @@ function Footer() {
         <hr className="my-8 border-gray-700" />
 
 {/* Additional Contact Information */}
-<div className="md:flex md:justify-between items-center mt-5 space-y-6 lg:space-y-0 lg:space-x-12">
-  
+{/* Additional Contact Information */}
+<div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-start text-center md:text-left mt-5 p-4 lg:gap-12">
   {/* Connect With Us */}
   <div
-    className="flex flex-col items-start text-center lg:text-left  w-[400px] mx-auto p-2"
+    className="flex flex-col items-center md:items-start"
     data-aos="fade-up"
     data-aos-delay="500"
   >
-    <h2 className="text-lg font-semibold ">Connect With Us</h2>
+    <h2 className="text-lg font-semibold">Connect With Us</h2>
     <p className="text-sm text-gray-600 mb-2">
       Have questions? Reach out to us anytime.
     </p>
@@ -276,12 +277,50 @@ function Footer() {
     >
       Get in Touch
     </Link>
-    {/* add mailto later */}
+  </div>
+
+  {/* Social Media Links */}
+  <div
+    className="flex justify-center items-center space-x-6"
+    data-aos="fade-up"
+    data-aos-delay="500"
+  >
+    <a
+      href="https://www.google.com/search?client=ms-android-transsion&sca_esv=d54d6af1d774538f&hl=en-US&cs=0&sxsrf=ADLYWIKeTkWYMyrvJdQji-36W8oru7nx4A%3A1736488845063&kgmid=%2Fg%2F11tnj2m3b1&q=Shelter%20For%20Urban%20Homeless%20Palani&shndl=30&source=sh%2Fx%2Floc%2Fact%2Fm1%2F4&kgs=0ad5d76d3019912c"
+      target="_blank"
+      className="text-gray-300 hover:text-blue-500 transition transform hover:scale-110"
+      aria-label="Google"
+    >
+      <FcGoogle size={30} />
+    </a>
+    <a
+      href="https://www.instagram.com/homelessshelter_palani?igsh=MTB4cHRia2p1MW05Nw=="
+      target="_blank"
+      className="text-gray-300 hover:text-blue-500 transition transform hover:scale-110"
+      aria-label="Instagram"
+    >
+      <FaInstagram size={30} />
+    </a>
+    <a
+      href="https://www.facebook.com/profile.php?id=100003670249638&mibextid=ZbWKwL"
+      target="_blank"
+      className="text-gray-300 hover:text-blue-500 transition transform hover:scale-110"
+      aria-label="Facebook"
+    >
+      <FaFacebook size={30} />
+    </a>
+    <a
+      href="tel:+919865826446"
+      className="text-green-500 hover:text-green-600 transition transform hover:scale-110"
+      aria-label="Phone"
+    >
+      <FaPhoneAlt size={28} />
+    </a>
   </div>
 
   {/* Call Us */}
   <div
-    className="flex flex-col items-start text-center lg:text-left  w-[400px] mx-auto p-2"
+    className="flex flex-col items-center "
     data-aos="fade-up"
     data-aos-delay="600"
   >
@@ -294,44 +333,8 @@ function Footer() {
       +91 98658 26446
     </a>
   </div>
-
-          {/* Social Media Links */}
-          <div
-            className="flex justify-center items-center md:pt-10 space-x-4"
-            data-aos="fade-up"
-            data-aos-delay="500"
-          >
-            <a
-              href="https://www.linkedin.com/"
-              className="text-gray-300 hover:text-blue-500 transition transform hover:scale-110"
-              aria-label="LinkedIn"
-            >
-              <FaLinkedin size={30} />
-            </a>
-            <a
-              href="https://www.instagram.com/"
-              className="text-gray-300 hover:text-blue-500 transition transform hover:scale-110"
-              aria-label="Instagram"
-            >
-              <FaInstagram size={30} />
-            </a>
-            <a
-              href="https://twitter.com/"
-              className="text-gray-300 hover:text-blue-500 transition transform hover:scale-110"
-              aria-label="Twitter"
-            >
-              <FaTwitter size={30} />
-            </a>
-            <a
-              href="https://www.facebook.com/"
-              className="text-gray-300 hover:text-blue-500 transition transform hover:scale-110"
-              aria-label="Facebook"
-            >
-              <FaFacebook size={30} />
-            </a>
-          </div>
-
 </div>
+
       </div>
     </footer>
   );

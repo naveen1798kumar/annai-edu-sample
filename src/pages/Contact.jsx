@@ -131,7 +131,7 @@ const Contact = () => {
                 </div>
                 <div className="flex items-center text-gray-600">
                   <FaEnvelope className="mr-3 text-blue-500 text-xl" />
-                  <span>info@annaieducationaltrust.org</span>
+                  <span>aetrust2001@gmail.com</span>
                 </div>
               </div>
             </div>

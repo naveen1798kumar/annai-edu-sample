@@ -14,6 +14,7 @@ import BlogEvents from './HomeComponents/BlogEvents';
 import BlogEvent from './HomeComponents/BlogEvent';
 import SupportingAgencies from './HomeComponents/SupportingAgencies';
 import NewsSection from './HomeComponents/NewsSection';
+import HeroCarousel from './HomeComponents/HeroCarousel';
 
 
 const Home = () => {
@@ -44,7 +45,8 @@ const Home = () => {
       {/* Main H1 for SEO */}
       <h1 className="sr-only">Annai Educational Trust - Nursing, Paramedical, and Blood Donation Services</h1>
       {/* Hero Section with Parallax Effect */}
-      <Hero />
+      {/* <Hero /> */}
+      <HeroCarousel/>
 
       {/* About Us Section */}
       <section className="w-full p-8 md:p-16 bg-gradient-to-r from-blue-50 to-gray-200" data-aos="fade-up">

@@ -169,12 +169,12 @@ const Donation = () => {
             <h4 className="font-semibold text-center">Donate via UPI</h4>
             <img src={DonateQr} alt="UPI QR Code" className="w-56 h-56 mx-auto my-4" />
           </div>
-          <div className="mb-6 flex flex-col justify-center items-center">
+          <div className="mb-6 flex flex-col justify-center">
 
-            <h4 className="font-semibold">Bank Transfer</h4>
-            <p>Bank Name: XYZ Bank</p>
-            <p>Account Number: 1234567890</p>
-            <p>IFSC Code: XYZB0000123</p>
+            <h4 className="font-semibold text-xl underline underline-offset-2 mb-2">Bank Transfer</h4>
+            <p><span className="font-semibold">Bank Name:</span>Karur Vysya Bank</p>
+            <p><span className="font-semibold">Account Number:</span> 1173155000070050</p>
+            <p><span className="font-semibold">IFSC Code:</span>KVBL0001173</p>
 
           </div>
           <div className="mt-6">

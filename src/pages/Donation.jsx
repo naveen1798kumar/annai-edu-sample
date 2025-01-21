@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { Helmet } from 'react-helmet';
 import BannerImg from "../assets/slider3.jpg"
-import DonateQr from "../assets/vcard.png"
+import DonateQr from "../assets/vcard.jpeg"
 import { AiOutlineDown, AiOutlineUp } from 'react-icons/ai';
 import { FaAngleDown, FaAngellist, FaAngleUp } from 'react-icons/fa';
 

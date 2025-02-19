@@ -54,7 +54,7 @@ const HeroCarousel = () => {
         {slides.map((slide, index) => (
           <SwiperSlide key={index}>
             <div
-              className="relative h-auto min-h-[90vh] flex justify-center items-center bg-cover bg-center"
+              className="relative h-auto min-h-[500px] flex justify-center items-center bg-cover bg-center"
               style={{ backgroundImage: `url(${slide.image})` }}
               aria-label={slide.title}
             >

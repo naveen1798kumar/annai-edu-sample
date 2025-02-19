@@ -34,7 +34,7 @@ function Footer() {
   };
 
   return (
-    <footer className="relative bg-gray-900 text-gray-300 py-16 overflow-hidden min-h-screen font-sans">
+    <footer className="relative bg-gray-900 text-gray-300 py-16 overflow-hidden h-auto min-h-[600px] font-sans">
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center opacity-20"

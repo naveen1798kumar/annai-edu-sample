@@ -10,7 +10,7 @@ function ServiceBanner({ backgroundImage, title, subtitle, currentPage }) {
   };
   
   return (
-    <div className="relative h-[200px] m-2 md:m-6 w-auto rounded-lg overflow-hidden">
+    <div className="relative h-auto min-h-[400px] m-2 md:m-6 w-auto rounded-lg overflow-hidden">
       <img
         src={backgroundImage}
         alt={title}

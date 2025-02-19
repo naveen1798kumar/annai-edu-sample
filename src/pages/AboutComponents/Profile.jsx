@@ -7,7 +7,7 @@ import Slide2 from "../../assets/slide_image_3.jpg";
 function Profile() {
   return (
     <>
-    <section className="bg-gray-400 w-full h-auto bg-cover bg-center min-h-screen"
+    <section className="bg-gray-400 w-full h-auto bg-cover bg-center min-h-[600px]"
     style={{
     backgroundImage: `url(${BG})`,
     backgroundAttachment: "fixed",

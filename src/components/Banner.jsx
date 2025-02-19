@@ -4,7 +4,7 @@ import { FaHome } from 'react-icons/fa';
 
 const Banner = ({ backgroundImage, title, subtitle, currentPage }) => {
   return (
-<section className="relative min-h-[80vh] flex items-center justify-center">
+<section className="relative h-auto min-h-[600px] flex items-center justify-center">
   {/* Background Image with Black & White Gradient */}
   <div
     className="absolute inset-0 bg-cover bg-top"

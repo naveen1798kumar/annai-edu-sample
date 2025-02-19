@@ -61,7 +61,7 @@ const Donation = () => {
   const toggleFAQ = (index) => {
     setActiveFAQ(activeFAQ === index ? null : index);
   };
-
+   
   return (
     <div className="donation-page py-10">
       <Helmet>

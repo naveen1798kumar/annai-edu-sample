@@ -19,7 +19,7 @@ function ServiceBanner({ backgroundImage, title, subtitle, currentPage }) {
       
       <div className="absolute inset-0 bg-gradient-to-r from-black via-black/60 to-black opacity-90"></div>
 
-      <div className="relative z-10 flex flex-col items-end justify-center h-auto min-h-[400px] w-full text-white text-center bg-black bg-opacity-50">
+      <div className="relative z-10 flex flex-col items-center justify-end pb-3 h-auto min-h-[400px] w-full text-white text-center bg-black bg-opacity-50">
         <h1 className="text-2xl md:text-4xl font-bold">{title}</h1>
         <p className="mt-2 text-lg md:text-xl">{subtitle}</p>
         <nav className="mt-8 flex items-center space-x-3 text-white text-lg md:text-2xl font-semibold">
